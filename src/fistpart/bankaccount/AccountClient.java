@@ -17,6 +17,11 @@ public class AccountClient {
         a1.credit(20.0);
         System.out.println(a1);
 
+        a1.debit(10.0);
+        System.out.println(a1);
+
+        // a1.credit(20.0); // IllegalArgumentException (No balance)
+
     }
 
 }

@@ -41,7 +41,7 @@ public class Account {
         } catch (NumberFormatException e) {
             throw new NumberFormatException("Unexpected error");
         }
-        // catch (Exception e) {
+        // catch (RuntimeException e) {
         //     e.printStackTrace();
         // }
     }
@@ -60,7 +60,7 @@ public class Account {
         } catch (NumberFormatException e) {
             throw new NumberFormatException("Unexpected error");
         }
-        // catch (Exception e) {
+        // catch (RuntimeException e) {
         //     e.printStackTrace();
         // }
     }
@@ -73,13 +73,13 @@ public class Account {
             if (value.compareTo(zero) > 0 && value.compareTo(balance) <= 0) {
                 balance = balance.subtract(value);
             } else {
-                throw new IllegalArgumentException("Enter valid values");
+                throw new IllegalArgumentException("No balance");
             }
             
         } catch (NumberFormatException e) {
             throw new NumberFormatException("Unexpected error");
         }
-        // catch (Exception e) {
+        // catch (RuntimeException e) {
         //     e.printStackTrace();
         // }
     }
