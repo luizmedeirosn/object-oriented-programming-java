@@ -1,4 +1,4 @@
-package fistpart.car;
+package fundamentals.fistpart.car;
 
 public class Car {
  

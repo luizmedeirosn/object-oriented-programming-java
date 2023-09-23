@@ -1,4 +1,4 @@
-package fistpart.bankaccount;
+package fundamentals.fistpart.bankaccount;
 
 import java.util.Locale;
 

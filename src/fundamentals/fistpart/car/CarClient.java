@@ -1,4 +1,4 @@
-package fistpart.car;
+package fundamentals.fistpart.car;
 
 import java.util.Locale;
 

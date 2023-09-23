@@ -1,4 +1,4 @@
-package fistpart.employee;
+package fundamentals.fistpart.employee;
 
 import java.math.BigDecimal;
 

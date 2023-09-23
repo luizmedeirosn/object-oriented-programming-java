@@ -1,4 +1,4 @@
-package fistpart.wizard;
+package fundamentals.fistpart.wizard;
 
 public enum HouseEnum {
     
